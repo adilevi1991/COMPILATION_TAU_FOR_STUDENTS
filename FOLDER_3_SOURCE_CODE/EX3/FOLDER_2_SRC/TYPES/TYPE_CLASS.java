@@ -3,6 +3,11 @@ package TYPES;
 public class TYPE_CLASS extends TYPE
 {
 	/*********************************************************************/
+	/* Overide isClass function from TYPE class  */
+	/*********************************************************************/
+	public boolean isClass(){ return true;}
+
+	/*********************************************************************/
 	/* If this class does not extend a father class this should be null  */
 	/*********************************************************************/
 	public TYPE_CLASS father;
